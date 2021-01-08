@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -120,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "spaMov"
+  "defaultProject": "spaMov",
+  "cli": {
+    "analytics": "83f01177-a8a0-4f76-b73f-29fa6fb57de7"
+  }
 }
